@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/theme_options" android:title="Change Theme">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/theme_option1"
+                    android:title="Theme1" />
+                <item
+                    android:id="@+id/theme_option2"
+                    android:title="Theme2" />
+                <item
+                    android:id="@+id/theme_option3"
+                    android:title="Theme3" />
+                <item
+                    android:id="@+id/theme_option4"
+                    android:title="Theme4" />
+                <item
+                    android:id="@+id/theme_option5"
+                    android:title="Theme5" />
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
